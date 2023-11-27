@@ -14,7 +14,7 @@
         <div class="header d-flex">
             <img src="disneyLogo.jpg" alt="">
             <div id="form-group" class="input-group mb-3">
-                <form action="script.js" method="get">
+                <form method="get">
                     <input type="text" class="form-control" id="input" name="input" value="" placeholder="Inserisci il nome del tuo personaggio Disney" aria-label="Inserisci il nome del tuo personaggio Disney" aria-describedby="basic-addon1">
                 </form>
                 
@@ -26,6 +26,11 @@
                 <div id="character-row" class="row my-5">
                 </div>
             </div>
+            
+        </div>
+        <div class="pagination">
+            <a onclick="prevPage()" ><i class="fa-regular fa-circle-left"></i></a>
+            <a onclick="nextPage()" ><i class="fa-regular fa-circle-right"></i></a>
         </div>
        
     </div>

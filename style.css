@@ -5,6 +5,7 @@
 }
 .container-fluid {
     padding: 0;
+    background-color: lightblue; 
 }
 img {
     max-width: 100%;
@@ -26,10 +27,10 @@ img {
 .container-characters {
     position: relative;
     background-color: lightblue; 
-    min-width: 100vw;
-    height: 100vh;
+    /* min-width: 100vw; */
+
     padding: 50px;
-    overflow-y: scroll;
+   
    
 }
 .modal-p {
@@ -97,4 +98,17 @@ img {
 }
 .btn {
     border: 2px solid #1200BD;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: lightblue;
+}
+
+.pagination i {
+    padding: 30px;
+    background-color: lightblue;
 }
